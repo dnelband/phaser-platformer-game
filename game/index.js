@@ -6,8 +6,8 @@ import Game from './scenes/Game.ts';
 
 var config = {
     type: Phaser.AUTO,
-    width: 1900,
-    height: 950,
+    width: 550,
+    height: 300,
     physics: {
         default: 'matter',
         matter:{
@@ -15,7 +15,7 @@ var config = {
         }
     },
     scale:{
-        zoom:1
+        zoom:3
     },
     scene: [Preloader,Game, UI]
 };
